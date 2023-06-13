@@ -3,9 +3,10 @@
 <head>
 	<title> Vida Saludable</title>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="diseno.css">
-
+	<link rel="stylesheet" type="text/css" href="diseno.css" href="css/bootstrap.min.css">
+	<script src="js/bootstrap.min.js"></script>
 
 </head>
 <body bgcolor="">
@@ -31,12 +32,12 @@
 
 		<div class="container">
 
-			<h1> Origen e historia de las benzodiacepinas</h1>
+			<h1> Origen e historia <br> de la Benzodiacepina </h1>
 			<img src="imagen/ecologia.png" height="230" width="330" align="right" border="7px">
 
-			<p>La primera benzodiacepina fue el clordiazepóxido. Lo descubrió el científico Leo Sternbach en 1949. En 1955 sería sintetizado para ser comercializado dos años más tarde por los laboratorios Roche con el nombre de Librium. Durante la década de 1960, las benzodiacepinas se utilizaron ampliamente tanto en los Estados Unidos como en Europa. Muchos estudios revelan que, desde sus inicios, el uso de las benzodiacepinas es más del doble entre las mujeres que entre los hombres. De hecho, la canción de los Rolling Stones “Mother’s Little Helper” (1966) alude al Valium, la famosa pastillita amarilla que ayudaba a calmar a las amas de casa desesperadas. A pesar de su popularidad, muy pronto las benzodiacepinas comenzaron a suscitar preocupación entre algunos miembros de la clase médica por su capacidad de provocar síndromes de dependencia o abuso. Al final de la década de 1980, comenzaron a salir al mercado los inhibidores selectivos de recaptura de serotonina (SSRI), que aún se consideran más seguros y no adictivos.</p>
+			<p>La primera benzodiacepina fue el clordiazepóxido. Lo descubrió el científico Leo Sternbach en 1949. En 1955 sería sintetizado para ser comercializado dos años más tarde por los laboratorios Roche con el nombre de Librium. <br><br> Durante la década de 1960, las benzodiacepinas se utilizaron ampliamente tanto en los Estados Unidos como en Europa. Muchos estudios revelan que, desde sus inicios, el uso de las benzodiacepinas es más del doble entre las mujeres que entre los hombres. <br><br> De hecho, la canción de los Rolling Stones “Mother’s Little Helper” (1966) alude al Valium, la famosa pastillita amarilla que ayudaba a calmar a las amas de casa desesperadas. A pesar de su popularidad, muy pronto las benzodiacepinas comenzaron a suscitar preocupación entre algunos miembros de la clase médica por su capacidad de provocar síndromes de dependencia o abuso. Al final de la década de 1980, comenzaron a salir al mercado los inhibidores selectivos de recaptura de serotonina (SSRI), que aún se consideran más seguros y no adictivos.</p>
 
-			<p align="justify">No obstante, las benzodiacepinas siguen recetándose ampliamente para el tratamiento de la ansiedad y el insomnio. Todavía existe la percepción de que son seguras, que actúan rápidamente, que sus usuarios no desarrollan tolerancia a sus efectos antipánico u otros efectos terapéuticos, que están disponibles en forma genérica y, por lo tanto, son más económicas y que no presentan peligro de sobredosis. Hace apenas un par de años salió a relucir el escándalo de las benzodiacepinas, a las que se asocia con las muertes de grandes figuras como Elvis Presley, Michael Jackson y Whitney Houston, entre otros. Los hallazgos demuestran que ya desde la década de los 1960 dos doctores de Glasgow advirtieron sobre los peligros del Librium, que incluían sedación excesiva, cansancio, apatía, irritabilidad y conducta agresiva.
+			<p align="justify">No obstante, las benzodiacepinas siguen recetándose ampliamente para el tratamiento de la ansiedad y el insomnio. Todavía existe la percepción de que son seguras, que actúan rápidamente, que sus usuarios no desarrollan tolerancia a sus efectos antipánico u otros efectos terapéuticos, que están disponibles en forma genérica y, por lo tanto, son más económicas y que no presentan peligro de sobredosis. <br><br> Hace apenas un par de años salió a relucir el escándalo de las benzodiacepinas, a las que se asocia con las muertes de grandes figuras como Elvis Presley, Michael Jackson y Whitney Houston, entre otros. Los hallazgos demuestran que ya desde la década de los 1960 dos doctores de Glasgow advirtieron sobre los peligros del Librium, que incluían sedación excesiva, cansancio, apatía, irritabilidad y conducta agresiva.
 			</p>
 			<br>
 			<h2>Explicación de la composición de las benzodiacepinas:</h2>
@@ -48,18 +49,18 @@
 
       <div id="mensaje"></div>
 
-      <b>En base a lo aprendido, busca la palabra que describe la imagen (Escribiendo en minuscula y sin signos de puntuación): </b><br />
+      <b> <strong>En base a lo aprendido, busca la palabra que describe la imagen (Escribiendo en minuscula y sin signos de puntuación): <strong></b><br/>
       <table class="table">
         <tr>
           <td>
-            Horizontales<br />
-            - <img src="img/palabra1.png" width="85" /><br />
-            - <img src="img/palabra2.png" width="50" /><br />
+           <font color="Sky blue"> Horizontales </font><br />
+            - <img src="img/palabra1.png" width="185" /><br />
+            - <img src="img/palabra2.png" width="150" /><br />
           </td>
           <td>
-            Verticales<br />
-            - <img src="img/palabra3.png" width="50" /><br />
-            - <img src="img/palabra4.png" width="50" /><br />
+            <font color="Sky blue"> Verticales </font><br />
+            - <img src="img/palabra3.png" width="120" /><br />
+            - <img src="img/palabra4.png" width="150" /><br />
           </td>
         </tr>
       </table>
@@ -248,7 +249,7 @@
 
         var errorActivo=0;
         function error(){
-          document.getElementById("mensaje").innerHTML="Existen palabras malas";
+          document.getElementById("mensaje").innerHTML="¡Existen palabras malas!";
           document.getElementById("mensaje").className="alert alert-danger";
           errorActivo=1;
         }
@@ -272,7 +273,7 @@
           palabra4 = palabra4_letra1.value + palabra4_letra2.value + palabra4_letra3.value + palabra4_letra4.value;
 
           if(palabra1.toLowerCase()=="abuso" && palabra2.toLowerCase()=="oli" && palabra3.toLowerCase()=="ssri" && palabra4.toLowerCase()=="poli"){
-            document.getElementById("mensaje").innerHTML="Ganaste";
+            document.getElementById("mensaje").innerHTML= "¡Ganaste!"; 
             document.getElementById("mensaje").style.fontSize="24px";
             document.getElementById("mensaje").className="alert alert-success";
           }else{
@@ -328,20 +329,18 @@
           }
         }
 
-
-
-
-
       </script>
-
-      <img src="img/boton.png" onClick="verificar()" style="margin: 0 0 0 13%;"/>
+      <br>
+      <img src="img/boton.png" width="120" height="64" onClick="verificar()" style="margin: 0 0 0 13%;"/> <a href="pregunta-frecuentes-main/indexs.html"> <img src="pregunta-frecuentes-main/cj.png" align="justify" width="120" height="70"/></a>
     </div>
 
 	</main>
 
+
+
 	<footer class="footer">
 		<div class="container">
-			<p>  Pagina diseñada por la agencia @FLOPPA company todos los derechos reservados y posibles parentezcos con cualquier otra pagina es mera coincidencia o parodia.</p>
+			<p>  Pagina diseñada por el equipo "@FLOPPA company".</p>
 		</div>
 		
 	</footer>

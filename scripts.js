@@ -10,6 +10,6 @@ JQuery('document').ready(function($){
 		} else {
 
 		menu.addClass('show');
-	}
-	});
-});
+	
+
+}}

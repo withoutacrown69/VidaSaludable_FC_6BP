@@ -4,6 +4,7 @@ body{
 	font-size: 1.2rem;
 	line-height: 1.4em;
 	margin: 0;
+	padding: 0;
 }
 
 h1{
@@ -51,7 +52,7 @@ p{
 }
 
 .menu-icon{
-	display: none;
+	display: flex;
 }
 
 .navigation ul{
@@ -65,7 +66,7 @@ p{
 }
 
 .navigation ul li a {
-	display: block;
+	display: flex;
 	padding: 0.5rem 1rem;
 	transition: all 0.4s linear;
 	border-radius: 5px;
@@ -90,7 +91,7 @@ p{
 @media only screen and (max-width: 767px) {
 
 .menu-icon{
-	display: block;
+	display: flex;
 	cursor: pointer;
 	padding: 0.5rem 1rem;
 }
@@ -101,19 +102,19 @@ p{
 }
 
 .navigation ul{
-	display: none;
+	display: flex;
 }
 
 .navigation ul.show{
-	display: block;
+	display: flex;
 }
 
 .navigation ul li{
-	display: block;
+	display: flex;
 }
 
 .navigation ul li a {
-	display: block;
+	display: flex;
 	padding: 0.5rem 0;
 	transition: all 0.4s linear;
 	border-radius: 5px;
